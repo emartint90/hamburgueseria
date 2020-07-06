@@ -1,0 +1,35 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+
+/* si abres con una comilla termina con una comilla y si es doble pues con doble */
+/* font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif; */
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing: border-box;
+
+}
+:root{
+    /* nos podemos inventar el nombre pero no los guiones, no empezar por números */
+     /* puedo poner la palabra del root */
+    /* font-family:'Montserrat', sans-serif;  */
+    --color-principal:#fa573a ;
+    --color-secundario:#21242e;
+    --fuentePrincipal:'Montserrat', sans-serif;
+    --fuenteSecundario: 'Handlee', cursive;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 1em;
+}
+
+img{
+    width:100%;
+    height: auto;
+    display: block;
+}
