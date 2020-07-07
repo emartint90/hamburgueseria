@@ -35,7 +35,7 @@ img{
     display: block;
 }
 .container{
-    max-width: var(--anchomaximo);
+max-width: var(--anchomaximo);
    margin: 0 auto;
 }
 .flex{
@@ -58,7 +58,7 @@ header .nav_top{
      justify-content: space-between;
 
  }
- header .nav_top i{
+header .nav_top i{
 color: var(--color-principal)
  }
 header nav{
@@ -155,4 +155,80 @@ footer a:hover{
     }
 
 }
+/* Inicio Hero */
 
+.hero{
+    background: url("../img/fondo.jpg");
+    height:50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #777777;
+    background-blend-mode: multiply;
+/* jugar con esta opción */
+/* */
+display: flex;
+align-items: center;
+}
+.hero .container{
+    /*  */
+ 
+    width:90%;
+}
+.hero h1 {
+    font-family: var(--fuenteSecundario);
+    font-size: 2.5em;
+    color: white;
+
+}
+.hero h2{
+    color: var(--color-principal);
+    font-size: 1.5em;
+    margin: 1em 0;
+}
+
+.hero p{
+    font-size: 1.15em;
+    color: white;
+
+}
+
+.boton {
+    display:inline-block;
+    background-color: var(--color-principal);
+    color:white;
+    padding: 1.15em;
+    text-decoration: none;
+    margin: 1em 0;
+    border: 1px solid var(--color-principal) 
+    /* truco de vieja gloria */
+
+}
+.boton:hover{
+    background-color: transparent;
+    color:var(--color-principal)
+}
+/* puedo poner all y afectaria a todos los i */
+.boton i {
+    transition: tranform 0.5s;
+}
+.boton:hover{
+    transform: translateX(5px);
+}
+.hero .RRSS li{
+    display: inline-block;
+    font-size:2em;
+    margin-right: 1em;
+
+}
+.hero .RRSS li{
+    color: white;
+    text-decoration:none;
+    
+    
+}
+
+/* Fin Hero */
+main{
+    
+}
