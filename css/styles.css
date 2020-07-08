@@ -228,6 +228,7 @@ align-items: center;
 
 /* Fin Hero */
 /* Inicio MAIN */
+/* Inicio seccion our service */
 main{
     margin-bottom: 90px;
     
@@ -316,10 +317,65 @@ main #ourservices .flex article h3 {
     }
 }
 
-@media(min-width: 62.750em){
-    width: 33,33%;
-    main #ourservices .flex article:last-child {
+@media(min-width: 62.750em) {
+     main #ourservices .flex article:last-child {
         width: 100%;
     }
 }
-/* border boto no hace falta porque ya heredamos de la otra mediaqueri */
+/* width: 33,33%; */
+/* border bottom no hace falta porque ya heredamos de la otra media */
+/* inicio  seccion aur service */
+/* inicio seccion ABOUT US */
+/* para elegir el ancho de la columna */
+main #aboutus .flex {
+    flex-direction: column;
+}
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+/* paso de un sistema flexible a un sistem a de columna */
+/* paso de un sistema flexible a un sistema de filas */
+/* lo que queda a la derecha hacemos column reverse para tener el texto enciam de la foto sobretodo pata movil */
+
+main #aboutus .flex .columna {
+    padding:0.825em;
+}
+main #aboutus .flex .columna h3{
+    font-weight: 700;
+}
+main #aboutus .flex .columna h4{
+    color: var(--color-principal);
+    margin: 1em 0;
+}
+main #aboutus .marco{
+    border: 3px solid var(--color-principal);
+    transform: rotateZ(10deg);
+    width: 90%;
+    margin :0 auto;
+}
+main #aboutus .marco img{
+    transform: rotateZ(-10deg);
+    transition: .5s;
+}
+main #aboutus .columna:hover .marco, main #aboutus .columna:hover img{
+    transform: rotateZ(0deg);
+
+} 
+/* esto efecto en el movil no se ve, solo en table y desktop */
+
+
+@media ( min-width :48.000em) {
+    main #aboutus .flex {
+        flex-direction: row;
+    }
+
+}
+ /* podemos poner tambien una variable si lo repetimos mucho */
+
+
+
+
+
+
+
+/* fin seccion ABOUT US */
+/* Cierre MAIN */
