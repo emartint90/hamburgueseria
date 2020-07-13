@@ -36,13 +36,8 @@ img{
 }
 
 .container{
-<<<<<<< HEAD
-max-width: var(--anchomaximo);
-   margin: 0 auto;
-=======
     max-width: var(--anchomaximo);
     margin: 0 auto;
->>>>>>> hotfix_layout
 }
 
 .flex{
@@ -69,12 +64,8 @@ header .nav_top a {
      justify-content: space-between;
 
  }
-<<<<<<< HEAD
-header .nav_top i{
-=======
 
  header .nav_top i {
->>>>>>> hotfix_layout
 color: var(--color-principal)
  }
 
