@@ -241,19 +241,18 @@ align-items: center;
 
 /* Fin Hero */
 /* Inicio MAIN */
-/* Inicio seccion our service */
-main{
+/* Inicio seccion ourservice */
+main {
     margin-bottom: 90px;
     
-
-
 }
-main section{
+
+main section {
     padding: 2.125em 0;
     
 }
 
-main section h2{
+main section h2 {
     color: black;
     font-family: var(--fuenteSecundario);
     font-size: 2em;
@@ -265,7 +264,8 @@ main section h2 span {
 
 }
 /* jugar con las posiciones, nevesitamos cambio de eje */
-main section .underline{
+
+main section .underline {
     position: relative;
     width: 5em;
     margin: 0 auto;
@@ -275,51 +275,58 @@ main section .underline{
     margin-bottom:2em;
     text-align: center;
 }
+
 main section .underline hr {
     color: var(--color-principal);
     position: absolute;
     width: 100%;
-    top:-0.63em;
+    top:-0.063em;
 }
+
 main #ourservices .flex{
     flex-wrap: wrap;
     padding: 0 0.825em;
 }
+
 main #ourservices .flex article {
-    widows: 100%;
+    width: 100%;
     padding:1.825em 0;
-    border-bottom:1px solid color #fff;
+    border-bottom:1px solid #aaa;
 }
+
 main #ourservices .flex article div i {
     color: var(--color-principal);
-    font-size:2em;
-    padding:0.825em;
-    border:2px solid var(--color-principal)
+    font-size: 2em;
+    padding: 0.5em;
+    border: 2px solid var(--color-principal);
 }
-main #ourservices .flex article div .fa-truck{
+
+main #ourservices .flex article div .fa-truck {
     transform: rotateY(180deg);
 
 }
+
 main #ourservices .flex article h3 {
     font-weight: 700;
     margin:1em 0;
 
 }
+
 .enlace {
     text-decoration:none;
-    margin-top: 1em 0;
+    margin-top: 1em ;
     display: block;
     color: var(--color-principal);
 }
 /* Cierre MAIN */
-/* punto de corte en :  buscamos la regla que le da el 100%*/
+/* punto de corte en : buscamos la regla que le da el 100%*/
 
 @media(min-width: 48.000em){
     main #ourservices .flex article {
         widows: 50%;
-        padding:1.825em 0;
+        padding:1.825em;
         border-bottom: 0px;
-        border-left: 1em;
+        border-left: 1px solid #aaa;
         margin-bottom: 1em;
 
     }
@@ -331,10 +338,19 @@ main #ourservices .flex article h3 {
 }
 
 @media(min-width: 62.750em) {
-     main #ourservices .flex article:last-child {
-        width: 100%;
+    main #ourservices .flex article:first-child {
+       width: 33%;
+   }
+   main #ourservices .flex article:last-child {
+    width: 33%;
     }
+    main #ourservices .flex article:nth-child(2){
+        width: 33%;
+        }
+
 }
+
+
 /* width: 33,33%; */
 /* border bottom no hace falta porque ya heredamos de la otra media */
 /* inicio  seccion aur service */
@@ -347,7 +363,7 @@ main #aboutus .flex {
     /* flex-direction: row; */
 /* paso de un sistema flexible a un sistem a de columna */
 /* paso de un sistema flexible a un sistema de filas */
-/* lo que queda a la derecha hacemos column reverse para tener el texto enciam de la foto sobretodo pata movil */
+/* lo que queda a la derecha hacemos column reverse para tener el texto encima de la foto sobretodo para móvil */
 
 main #aboutus .flex .columna {
     padding:0.825em;
