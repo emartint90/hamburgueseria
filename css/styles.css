@@ -34,59 +34,78 @@ img{
     height: auto;
     display: block;
 }
+
 .container{
+<<<<<<< HEAD
 max-width: var(--anchomaximo);
    margin: 0 auto;
+=======
+    max-width: var(--anchomaximo);
+    margin: 0 auto;
+>>>>>>> hotfix_layout
 }
+
 .flex{
     display: flex;
 }
+
 /*inicio header*/
+
 header .nav_top{
     background-color: var(--color-secundario);
     padding: 20px 10px;
 }
-header .nav_top{
+
+header .nav_top a {
     color:white;
     text-decoration: none;
     font-size: 120%;
 }
- header .nav_top a span{
+ header .nav_top a span {
      display: none;
  }
- header .nav_top .flex{
+
+ header .nav_top .flex {
      justify-content: space-between;
 
  }
+<<<<<<< HEAD
 header .nav_top i{
+=======
+
+ header .nav_top i {
+>>>>>>> hotfix_layout
 color: var(--color-principal)
  }
-header nav{
+
+header nav {
     padding:20px;
 }
-header .logo{
+
+header .logo {
     max-width: 110px;
 }
-header .hamburguesa{
-    cursor: pointer;
-    
 
+header .hamburguesa{
+    width: 50px;
+    cursor: pointer;
 }
-header .hamburguesa div{
+
+header .hamburguesa div {
     border-top: 2px solid #aaa;
     margin: 10px;
-    width: 50px;
+    
 }
 header nav .flex{
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
-/* header nav .ul repasar puntos, espacios y comas */
-header nav ul{
+
+
+header nav ul {
     width: 100%;
-
 }
+
 header nav ul li a {
     display: block;
     text-align: center;
@@ -96,6 +115,7 @@ header nav ul li a {
     color: #aaa;
     transition: 1s;
 }
+
 header nav ul li .activo{
     color:var(--color-principal);
 }
@@ -105,6 +125,8 @@ header nav ul li a:hover{
 
 
 /*fin de header*/
+
+
 /*inicio footer*/
 footer{
     background-color: var(--color-secundario);
