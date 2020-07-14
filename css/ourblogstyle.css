@@ -1,0 +1,129 @@
+
+/* /* Inicio Our blog * */
+
+main {
+    margin-bottom: 90px;   
+}
+
+main section {
+    padding: 2.125em 0;
+    
+}
+/**titulo**/
+main section h2 {
+    color: black;
+    font-family: var(--fuenteSecundario);
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span {
+    color: var(--color-principal);
+}
+
+main section .underline {
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-bottom:2em;
+    text-align: center;
+}
+
+main section .underline hr {
+    color: var(--color-principal);
+    position: absolute;
+    width: 100%;
+    top:-0.063em;
+}
+/**fin titulo**/
+main #ourblog .flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: ; */
+}
+
+main #ourblog .container h5{
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+main #ourblog .flex article h4 {
+    font-family: var(--fuentePrincipal);
+    margin:1em 0;
+}
+
+main #ourblog .cuadrado{
+    position: absolute;
+    width: 5%;
+    height: 4.150em;
+    background-color: var(--color-principal);
+    opacity: 0.7;
+    /* background-color: transparent 0.1; */
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+/* main #ourblog .cuadrado p{
+    padding: auto;
+    text-align: center;
+    vertical-align: auto;
+} */
+
+/* main #ourblog .cuadrado p{
+    opacity: 1;
+    z-index: 3;
+    padding: auto 0;} */
+
+main #ourblog .flex .texto{
+    padding: 10px;
+}
+
+main #ourblog .flex .enlace{
+    font-weight: bold;
+    text-decoration:none;
+    margin-top: 1em ;
+    display: block;
+    color: var(--color-principal);
+}
+
+main #ourblog .flex article {
+    padding:1.825em;
+    border-bottom: 0px;
+    margin-bottom: 1em;
+    margin: 1%;
+}
+
+main #ourblog .flex article:first-child {
+    width: 48%;
+}
+
+main #ourblog .flex article:last-child {
+    width: 98%;
+}
+
+main #ourblog .flex article:nth-child(2){
+    width: 48%;
+}
+
+
+
+@media(min-width: 71.250em) {
+    main #ourblog .flex article:first-child {
+        width: 30%;
+    }
+
+    main #ourblog .flex article:last-child {
+        width: 30%;
+    }
+
+    main #ourblog .flex article:nth-child(2){
+        width: 30%;
+    }
+}
+
+
+/* Cierre Our blog */
