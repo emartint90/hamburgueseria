@@ -13,13 +13,14 @@ font-family: 'Montserrat', sans-serif; */
     -o-box-sizing: border-box;
 
 }
+
 :root{
     /* nos podemos inventar el nombre pero no los guiones, no empezar por números */
      /* puedo poner la palabra del root */
     /* font-family:'Montserrat', sans-serif;  */
     --color-principal:#fa573a ;
     --color-secundario:#21242e;
-    --fuentePrincipal:'Montserrat', sans-serif;
+    --fuentePrincipal: 'Montserrat', 'sans-serif';
     --fuenteSecundario: 'Handlee', cursive;
     --anchomaximo:1100px;
 }
@@ -56,6 +57,7 @@ header .nav_top a {
     text-decoration: none;
     font-size: 120%;
 }
+
  header .nav_top a span {
      display: none;
  }
@@ -91,7 +93,6 @@ header nav .flex{
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 
 header nav ul {
     width: 100%;
@@ -139,6 +140,9 @@ footer a:hover{
 
 }
 /*fin de footer*/
+
+/* /* Medias Queries del header y footer */
+
 /* tablet */
 @media(min-width: 48.000em) {
     /* hacer aparecer el texto */
@@ -318,9 +322,10 @@ main #ourservices .flex article h3 {
     display: block;
     color: var(--color-principal);
 }
+
 /* Cierre MAIN */
 /* punto de corte en : buscamos la regla que le da el 100%*/
-
+/* medias query main */
 @media(min-width: 48.000em){
     main #ourservices .flex article {
         widows: 50%;
@@ -349,6 +354,7 @@ main #ourservices .flex article h3 {
         }
 
 }
+
 
 
 /* width: 33,33%; */
@@ -399,11 +405,6 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover img{
 
 }
  /* podemos poner tambien una variable si lo repetimos mucho */
-
-
-
-
-
 
 
 /* fin seccion ABOUT US */
