@@ -12,7 +12,7 @@ main section {
 /**titulo**/
 main section h2 {
     color: black;
-    font-family: var(--fuenteSecundario);
+    font-family: var(--fuenteSecundario cursive);
     font-size: 2em;
     text-align: center;
 }
