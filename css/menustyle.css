@@ -1,0 +1,104 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css");
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing: border-box;
+
+}
+
+:root{
+ 
+    --color-principal:#fa573a ;
+    --color-secundario:#21242e;
+    --fuentePrincipal: 'Montserrat', 'sans-serif';
+    --fuenteSecundario: 'Handlee', cursive;
+    --anchomaximo:1100px;
+}
+
+
+body{
+    background-color: black;
+    font-family: var(--fuentePrincipal);
+}
+
+.boton {
+    display:block;
+    border-radius: 5%;
+
+}
+main #menu h6 {
+    color:white;
+    font-family:var(--fuenteSecundario cursive);
+    font-weight: bold;
+}
+main #menu .botones {
+    max-width: 80%;
+    margin:10%;   
+}
+
+main #menu .botones{
+    color: white;
+   
+    
+}
+main #menu .opciones{
+    color: white;
+    padding: 15px;
+}
+main #menu .container h2{
+    color: white;
+}
+
+main #menu .container span {
+    color: var(--color-principal);
+}
+
+main  #menu span{
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-left: 260px;
+}
+main #menu .inicio{
+    /* -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button; */
+    background-color: var(--color-principal);
+    /* text-decoration: none; */
+    color:white;
+    width: 5%;
+    border-style: ridge;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 80px;
+   
+
+}
+
+@media (min-width: 71.250em){
+
+    .opciones {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        margin-right: 20px;
+    }
+    
+    .flex {
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .botones{
+
+        width: 20%;
+        margin-left: 20px;
+        margin: auto 0;
+
+    }
+
+}
